@@ -16,7 +16,7 @@ text_end:   equ $           ; end of text address
 
     di                      ; disable interrupt                    
 load_letter_init:
-     ld hl, text_end
+    ld hl, text_end
     ld (last_letter), hl    ; saving address of last letter into memory
     ld bc,0                 ; init conunter for main loop
     ld (iterate_main),bc    ; and save it into memory
