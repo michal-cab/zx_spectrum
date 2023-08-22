@@ -5,7 +5,7 @@
 
 
 letter_address  = $7900     ; variables in memory, as i still dont
-line_address    = $7910     ; understand how stack works in sjasmplus
+line_address    = $7910     ; understand how sjasmplus deals with stack
 iterate         = $7920     ; and also got lost in pushes and pops
 next_letter     = $7930
 last_letter     = $7940
@@ -17,7 +17,7 @@ text_end:   equ $           ; end of text address
     di                      ; disable interrupt                    
 load_letter_init:
      ld hl, text_end
-    ld (last_letter), hl    ; saving address of last letter into memeory
+    ld (last_letter), hl    ; saving address of last letter into memory
     ld bc,0                 ; init conunter for main loop
     ld (iterate_main),bc    ; and save it into memory
 
