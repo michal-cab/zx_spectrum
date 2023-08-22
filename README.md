@@ -1,4 +1,4 @@
-![image](https://github.com/michal-cab/zx_spectrum/assets/7590341/aa90d2a1-c412-4533-8811-3a50900f66b6)# zx_spectrum
+zx_spectrum assembly snippets
 
 simple assembly demo of vertical scroll
 
