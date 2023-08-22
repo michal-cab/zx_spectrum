@@ -152,7 +152,7 @@ vscroll_videoram:
     ld (iterate), bc        ; and saving into memory again    
     jr  nz, next_line       ; after 8 cycles we need to calculate
                             ; new address for a letter
- ;   jp main_loop
+    jp main_loop
 
 wait:
     push af
