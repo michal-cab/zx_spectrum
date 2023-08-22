@@ -1,4 +1,4 @@
-zx_spectrum assembly snippets
+#zx_spectrum assembly snippets
 
 simple assembly demo of vertical scroll
 
